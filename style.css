@@ -1,0 +1,99 @@
+﻿h1 {margin: 1.5em;0.5em;
+	  		color: white;
+   
+	  	}
+.blue {background-color: #2B3566;
+}
+.black {background-color: #242424}
+.red {background-color: #DD1F32}
+
+
+body{display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+min-height: 100vh;}
+
+div{
+border-radius: 20px;
+display: inline-block;
+width: 344px;
+height: 564px;
+margin: 0;
+}
+
+
+
+
+p{margin-left: 3em;
+width: 218px;
+height: 87px;
+left: 222px;
+top: 237px;
+
+
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 14px;
+
+color: #FFFFFF;
+}
+.download1{display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+  background-color: #2B3566;
+  border-style: solid ;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+border-radius: 40px;
+    margin-left: 3.7em;
+    border-width:thin;
+    margin-top: 2em;
+    border-color: #45D3C2;
+font-weight: bold;
+    }
+
+.download2{display: flex;
+justify-content: center;
+    align-items: center;
+    width: 170px;
+   background-color: #242424;
+  border-style: solid ;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+    margin-left: 3.7em;
+  font-size: 16px;
+  cursor: pointer;
+     margin-top: 2em;
+border-radius: 40px;
+    border-width:thin;
+    border-color: blue;
+font-weight: bold;}
+
+.download3{display: flex;
+justify-content: center;
+    align-items: center;
+    width: 170px;
+  background-color: #DD1F32;
+  border-style: solid ;
+  color: white;
+  margin-left: 3.7em;
+    padding: 15px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 2em;
+    cursor: pointer;
+border-radius: 40px;
+    border-width:thin;
+    border-color: #FDD91A;
+font-weight: bold;}
+
+
+.download3:hover{background-color: yellow;color: red;}
+.download2:hover{background-color: blue;color: white;}
+.download1:hover{background-color: #45D3C2;color: darkblue;}
